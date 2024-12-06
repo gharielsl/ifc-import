@@ -1,0 +1,23 @@
+{
+  "name": "ifc-import",
+  "version": "1.0.5",
+  "description": "IFC parsing using web-ifc",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "start": "npm run build && node ./dist/cli"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gltf-transform/core": "^3.10.1",
+    "@gltf-transform/extensions": "^3.10.1",
+    "three": "^0.162.0",
+    "web-ifc": "^0.0.51"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.3",
+    "@types/node": "^20.11.29",
+    "@types/three": "^0.162.0"
+  }
+}
